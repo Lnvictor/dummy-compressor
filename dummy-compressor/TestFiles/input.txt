@@ -1,0 +1,4 @@
+HH_NUM,SOCEC,CITY,PER_DESCcounter,CONFIGcounter,HOME_APPcounter,PETS_RECcounter,
+100001,1,1,6,2,1,1,1,1,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,1,45,1,1,1,0,1,3,5,,,,,,,,,,,
+
