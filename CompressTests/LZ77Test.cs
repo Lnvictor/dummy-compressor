@@ -52,7 +52,7 @@ namespace CompressTests
         {
             string fileContent;
 
-            using (StreamReader reader = new StreamReader(".\\..\\..\\..\\TestFiles\\TestEncoding.txt"))
+            using (StreamReader reader = new StreamReader(".\\..\\..\\..\\TestFiles\\input.txt"))
             {
                 fileContent = reader.ReadToEnd();
             }
