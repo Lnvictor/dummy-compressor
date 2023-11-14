@@ -52,21 +52,21 @@ namespace CompressTests
         {
             string fileContent;
 
-            using (StreamReader reader = new StreamReader("C:\\Users\\victor.barbosa\\Documents\\personal\\dummy-compressor\\dummy-compressor\\TestFiles\\TestEncoding.txt"))
+            using (StreamReader reader = new StreamReader(".\\..\\..\\..\\TestFiles\\TestEncoding.txt"))
             {
                 fileContent = reader.ReadToEnd();
             }
 
             string compressed = Compressor.Compress(fileContent);
 
-            using (StreamWriter writer = new StreamWriter("C:\\Users\\victor.barbosa\\Documents\\personal\\dummy-compressor\\dummy-compressor\\TestFiles\\output.txt"))
+            using (StreamWriter writer = new StreamWriter(".\\..\\..\\..\\TestFiles\\output.txt"))
             {
                 writer.Write(compressed);
             }
 
             string decompressed = Compressor.Decompress(compressed);
 
-            using (StreamWriter writer = new StreamWriter("C:\\Users\\victor.barbosa\\Documents\\personal\\dummy-compressor\\dummy-compressor\\TestFiles\\output_2.txt"))
+            using (StreamWriter writer = new StreamWriter(".\\..\\..\\..\\TestFiles\\output_2.txt"))
             {
                 writer.Write(decompressed);
             }
