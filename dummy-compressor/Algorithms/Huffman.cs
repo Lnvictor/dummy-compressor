@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace dummy_compressor.Algorithms
+﻿namespace dummy_compressor.Algorithms
 {
     public class Huffman : ICompressor
     {
-        public byte[] Compress(byte[] data)
+        public string Compress(string data)
         {
             throw new NotImplementedException();
         }
 
-        public byte[] Decompress(byte[] data)
+        public string Decompress(string data)
         {
             throw new NotImplementedException();
         }
